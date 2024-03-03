@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Globalization;
+using System.Runtime.CompilerServices;
+
 namespace TinyUrlApp
 {
 	public class TinyUrlService
@@ -12,10 +15,10 @@ namespace TinyUrlApp
 
 		}
 
-
+        [MethodImpl(MethodImplOptions.Synchronized)]
         public string createShortUrl(string longUrl, string? customAlias)
         {
-            //TODO - this needs to be wrapped in a synchronized block
+            
             string uniqueKey = string.Empty;
 
             Console.WriteLine("custom alias: {0}", customAlias);
