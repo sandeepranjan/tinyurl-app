@@ -3,7 +3,7 @@
 
 namespace TinyUrlApp
 {
-    class Program
+    public class Program
     {
         public static string TINY_URL = "tinyurl.com";
 

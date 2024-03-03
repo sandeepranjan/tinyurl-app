@@ -7,9 +7,10 @@ namespace TinyUrlApp
 
         public RandomKeyGenerator()
 		{
+
 		}
 
-        public string createUniqueKey(int keyLength)
+        public virtual string createUniqueKey(int keyLength)
         {
             Random random = new Random();
             var chars = Enumerable.Range(0, keyLength).Select(x => pool[random.Next(0, pool.Length)]);
