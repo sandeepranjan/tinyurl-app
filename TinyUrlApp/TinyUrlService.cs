@@ -22,7 +22,7 @@ namespace TinyUrlApp
             string uniqueKey = string.Empty;
 
             Console.WriteLine("custom alias: {0}", customAlias);
-            if (customAlias != null && customAlias.Length > 0)
+            if ( ! String.IsNullOrEmpty(customAlias))
                 uniqueKey = customAlias;
             else
                 uniqueKey = randomKeyGenerator.createUniqueKey(6);
