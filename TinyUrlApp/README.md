@@ -13,6 +13,8 @@
 
 * The unique Key (or short Url) generated is of 6 char in length and can consist of any character from A-Z a-z 0-9 (a total of 62 chars).
 * This will give approx. 56.8 billion distinct tinyUrls. (62^6)
+* If a custom alias is provided on the command line, then it must be from the list of 62 chars above. The program validates this custom alias if supplied.
+
 
 
 ## How to run/test the application:
