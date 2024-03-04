@@ -26,3 +26,23 @@
  ```
  c,www.google.com,fgR09l
  ```
+ * For retrieving the long Url for a short Url:
+ ```
+ g,tinyurl.com/fgR09l
+ ```
+ * For getting the stats on how many times a url has been clicked
+ ```
+ s,tinyurl.com/fgR09l
+ ```
+ * Delete all short Urls for the given long Url
+ ```
+ d,www.google.com
+ ```
+ * Quit the application
+ ```
+ q
+ ```
+
+## Execution Logs:
+
+![Alt text](/../images/TinyUrlApp-Execution logs.png?raw=true "Logs")
