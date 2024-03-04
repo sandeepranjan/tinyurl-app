@@ -47,3 +47,9 @@
 ## Execution Logs:
 
 ![Logs](./images/TinyUrlApp-Execution-logs.png?raw=true?raw=true "Logs")
+
+## Data Structure:
+
+* Dictionary is used as a temporary in-memory datastore.
+
+![Data Structure](./images/DataStructure-tinyUrlDictionary.png?raw=true?raw=true "Data Structure")
