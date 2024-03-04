@@ -8,3 +8,21 @@
 * RandomKeyGenerator.cs: This is a helper class that generates random token of length 6 characters. This token is part of the tiny Url.
 * TinyUrl.cs: This class maintains the mapping of long Urls to short Url and how many times the url has been clicked (hitCounter field).
 * TinyUrlService.cs: Class having complete logic of creating Unique URls, deleting Urls, incrementing hit Counter.
+
+## Assumptions:
+
+* 
+
+
+## How to run/test the application:
+
+* Run the command line application the usual way.
+* When prompted for Input, supply one of the following:
+ * For Creating a new shortUrl for a given LongUrl without supplying the custom Alias
+ ```
+ c,www.google.com
+ ```
+ * For Creating a new shortUrl for a given LongUrl supplying the custom Alias
+ ```
+ c,www.google.com,fgR09l
+ ```
