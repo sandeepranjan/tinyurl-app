@@ -45,4 +45,5 @@
 
 ## Execution Logs:
 
-![Alt text](../images/TinyUrlApp-Execution-logs.png?raw=true "Logs")
+
+(./images/TinyUrlApp-Execution-logs.png?raw=true?raw=true "Logs")
