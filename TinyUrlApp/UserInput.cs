@@ -24,7 +24,16 @@ namespace TinyUrlApp
                 longUrl = inputArgsArray[1].Trim();
 
             if (inputArgsArray.Length > 2)
+            {
                 customShortUrl = inputArgsArray[2].Trim();
+                //validate custom Alias : Only alphanumeric allowed
+                if (!customShortUrl.All(Char.IsLetterOrDigit))
+                {
+                    Console.WriteLine("Only Alphanumeric characters allowed for Custom Alias");
+                    return new("INVALID_USER_ACTION", "", ""); 
+                }
+            }
+                
 
             UserInput userInput = new(userAction, longUrl, customShortUrl);
             return userInput;
