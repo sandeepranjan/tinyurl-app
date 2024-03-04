@@ -45,4 +45,4 @@
 
 ## Execution Logs:
 
-![Alt text](../images/TinyUrlApp-Execution-logs.png?raw=true "Logs")
+(https://github.com/sandeepranjan/tinyurl-app/blob/main/images/TinyUrlApp-Execution-logs.png?raw=true?raw=true "Logs")
