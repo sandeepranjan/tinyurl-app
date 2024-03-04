@@ -29,7 +29,7 @@ namespace TinyUrlApp
 
             while (tinyUrlDictionary.ContainsKey(uniqueKey))
             {
-                Console.WriteLine("Unique Key {0} already present in dictionary, generating a new one", uniqueKey);
+                Console.WriteLine("Unique Key generated {0} is already present in dictionary, generating a new one", uniqueKey);
                 uniqueKey = randomKeyGenerator.createUniqueKey(6);
 
             }
