@@ -50,6 +50,6 @@
 
 ## Data Structure:
 
-* Dictionary is used as a temporary in-memory datastore.
+* Dictionary is used as a temporary in-memory datastore, since it's performance is better than that of a HashTable and also a dictionary provides type safety.
 
 ![Data Structure](./images/DataStructure-tinyUrlDictionary.png?raw=true?raw=true "Data Structure")
