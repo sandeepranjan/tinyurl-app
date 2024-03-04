@@ -11,7 +11,8 @@
 
 ## Assumptions:
 
-* 
+* The unique Key (or short Url) generated is of 6 char in length and can consist of any character from A-Z a-z 0-9 (a total of 62 chars).
+* This will give approx. 56.8 billion distinct tinyUrls. (62^6)
 
 
 ## How to run/test the application:
